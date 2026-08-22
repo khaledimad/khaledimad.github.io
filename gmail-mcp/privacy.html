@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Privacy Policy — Personal Gmail MCP</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="stylesheet" href="/gmail-mcp/_style.css" />
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="sub">Personal Gmail MCP · last updated August 21, 2026</p>
+
+  <p>Personal Gmail MCP is a single-user tool. It is installed and run by one person on their own computer, and it accesses only the Gmail account that authorized it. There are no other users, no accounts, and no hosted service.</p>
+
+  <h2>What data is accessed</h2>
+  <p>When the operator runs the tool, it uses the Gmail API to read and modify mail in their own mailbox: message content, headers, attachments, labels, threads, and basic settings such as filters and signatures. Access is limited to the <code>gmail.modify</code> and <code>gmail.settings.basic</code> scopes.</p>
+
+  <h2>Where data goes</h2>
+  <p>Mail content is exchanged directly between the operator's computer and Google's Gmail API. It is not sent to any server operated by this application, because no such server exists. Data appears only in the operator's local command-line session and in whatever files the operator chooses to save.</p>
+
+  <h2>Storage and retention</h2>
+  <p>The only data written to disk by the tool is an OAuth credential file stored locally at <code>~/.gmail-mcp/</code>, readable only by the operator's user account. No copy of the mailbox is retained. Revoking the application's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> and deleting that directory removes all stored data.</p>
+
+  <h2>Sharing</h2>
+  <p>No data is sold, shared, transferred, or disclosed to any third party. There is no analytics, telemetry, or advertising of any kind.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>This application's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: khaled.kalkhatib@gmail.com</p>
+
+  <footer><a href="/gmail-mcp/">Personal Gmail MCP</a> · <a href="/gmail-mcp/terms.html">Terms of service</a></footer>
+</main>
+</body>
+</html>
